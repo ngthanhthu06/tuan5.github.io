@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: yellow;
+    height: 160px;
+    line-height: 100px;
+}
+
+.menu {
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    float: left;
+    font-size: small;
+}
+
+.menu ul li  {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    padding-top: 10px;
+    height: 500px;
+}
+
+.content h2 {
+    color: red;
+}
+
+.content img {
+    width: 300px;
+    display: block;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    height:500px;
+    float: right;
+    padding: 10px;
+    background-color: green;
+    font-size: smaller;
+}
+
+.right-top, .right-left, .right-right {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.right-left, .right-right {
+    width: 48%;
+    float: left;
+    padding-bottom: 320px;
+}
+
+.right-right {
+    float: right;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:  rgba(248, 247, 247,0.315);
+}
+.right-top, .right-left{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:  rgba(248, 247, 247,0.315);
+    
+}
+.right-top{
+    padding-bottom: 50px;
+}
+  </style>
+</head>
+<body>
+    <a href="b1.html">Bài 1</a><a href="b2.html">Bài 2</a><a href="b3.html">Bài 3</a><a href="b1anh.html">Ảnh 1</a><a href="b2anh.html">Ảnh 2</a><a href="b3anh.html">Ảnh 3</a>
+    <div class="header"></div>
+    <div class="menu">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Feedback</li>
+            <li>FAQs</li>
+            <li>My Account</li>
+        </ul>
+        <ul>
+            <li>English</li>
+            <li>Tiếng Việt</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>TRANG CHỦ</h2>
+        <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t1.15752-9/486163917_1888334108644926_3719701986923750842_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGBbnfjHZcFbNdxiKiwsqyVlmb27MTnJwaWZvbsxOcnBhYovBQum-hVMlnTea7qE6nta43NmYK6kHyRXxkDVtY_&_nc_ohc=_e2fFqmsfZcQ7kNvgGCBzS7&_nc_oc=Adl6t1M8O8aPmAcqkcaTxreqNBkcrg5RbtqkKA8_1C2_qacp-cqC00d1lDjPL7QMjkkDq8j7D-PVZGJo5l8Bd1aY&_nc_zt=23&_nc_ht=scontent.fhan14-3.fna&oh=03_Q7cD1wFtzmvX9xjgVi0CmxeqmZNZ3RJiQtNc9uz_vnqUsWPPwQ&oe=68075CDB">
+    </div>
+    <div class="sidebar">
+        <div class="right-top">RIGHT-TOP</div>
+        <div class="right-left">RIGHT-LEFT</div>
+        <div class="right-right">RIGHT-RIGHT</div>
+    </div>
+</body>
+</html>
